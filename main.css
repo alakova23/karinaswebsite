@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Audiowide", sans-serif;
+    font-size: 30px;
+    box-sizing: border-box;
+    background-color: black;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.center {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+th,
+td {
+    padding: 7px;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 2%;
+    width: 100%;
+    color: white;
+    background-color: #373f3e;
+}
+
+footer>p {
+    font-size: large;
+}
+
+header>a,
+footer>p {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.buttons {
+    background-color: #00BFA6;
+    border-radius: 4px;
+    padding: 15px 30px;
+}
+
+.aboutme_table {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.aboutme_text {
+    text-align: justify;
+    font-size: large;
+    font-weight: lighter;
+}
+
+#aboutmebutton {
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.contacts {
+    font-size: x-large;
+}
+#cities{
+    font-weight: lighter;
+    font-size: large;
+}
